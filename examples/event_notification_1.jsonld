@@ -1,0 +1,38 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/activitystreams",
+      "https://coar-notify.net"
+    ],
+    "id": "urn:uuid:94ecae35-dcfd-4182-8550-22c7164fe23f",
+    "type": [
+        "Announce",
+        "coar-notify:RelationshipAction"
+    ],
+    "actor": {
+      "id": "https://mylinker.ugent.be",
+      "name": "My Research Data Linker",
+      "type": "Service"
+    },
+    "origin": {
+      "id": "https://mylinker.ugent.be/profile#about",
+      "inbox": "https://mylinker.ugent.be/inbox/",
+      "type": "Service"
+    },
+    "context": {
+      "id": "https://biblio.ugent.be/publication/01HGZ2RXXGK39KV1T0NJV1W6CX",
+      "type": "sorg:AboutPage"
+    },
+    "object": {
+      "id": "urn:uuid:74FFB356-0632-44D9-B176-888DA85758DC",
+      "type": "Relationship",
+      "as:subject": "https://biblio.ugent.be/publication/01HGZ2RXXGK39KV1T0NJV1W6CX",
+      "as:relationship": "http://purl.org/vocab/frbr/core#supplement",
+      "as:object": "https://doi.org/10.5281/ZENODO.10017325"
+    },
+    "target": {
+      "id": "https://biblio.ugent.be",
+      "type": "Service",
+      "name": "Ghent University Academic Bibliography",
+      "inbox": "http://biblio.ugent.be/inbox/"
+    }
+  }

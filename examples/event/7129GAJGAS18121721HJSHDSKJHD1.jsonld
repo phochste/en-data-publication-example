@@ -1,0 +1,15 @@
+{ 
+   "@context": "https://www.w3.org/ns/activitystreams",
+   "id": "https://acme.org/events/alice/0F402B08-F676-40EE-9D4B-480B3F985B65",
+   "type": "Update",
+   "actor": {
+      "id": "https://biblio.ugent.be",
+      "type": "Service",
+      "name": "Ghent University Academic Bibliography",
+      "inbox": "https://biblio.ugent.be/inbox/"
+   },
+   "object": {
+      "id": "https://biblio.ugent.be/publication/01HGZ2RXXGK39KV1T0NJV1W6CX",
+      "type": "WebPage"
+   }
+}

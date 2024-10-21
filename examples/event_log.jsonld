@@ -1,0 +1,26 @@
+{
+    "@context": "https://labs.eventnotifications.net/contexts/eventlog.jsonld",
+    "id": "https://biblio.ugent.be/publication/01HGZ2RXXGK39KV1T0NJV1W6CX/events",
+    "type": "EventLog",
+    "artifact": "https://biblio.ugent.be/publication/01HGZ2RXXGK39KV1T0NJV1W6CX",
+    "member": [
+      {
+        "id": "https://biblio.ugent.be/event/108GJKFKAJAS9127192718GJGASHJ",
+        "created": "2024-10-09T12:35:19.125Z",
+        "checksum": {
+          "type": "Checksum",
+          "algorithm": "spdx:checksumAlgorithm_md5",
+          "checksumValue": "71e3f8d7ac29cb57874f78790374d901"
+        }
+      } ,
+      {
+        "id": "https://biblio.ugent.be/event/7129GAJGAS18121721HJSHDSKJHD1",
+        "created": "2024-10-09T12:35:01.219Z",
+        "checksum": {
+          "type": "Checksum",
+          "algorithm": "spdx:checksumAlgorithm_md5",
+          "checksumValue": "71e3f8d7ac29cb57874f78790374d901"
+        }
+      } 
+    ]
+}
