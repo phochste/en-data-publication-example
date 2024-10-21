@@ -34,6 +34,19 @@ or, changes that pertain to value-adding services for an artifact:
 - `as:Undo`: the undo of an offer
 - `as:Announce`: a web service announcing a some information (or a service result) pertaining to an artifact
 
+An event log for an artifact can be discovered using the `Link-Template` HTTP header on the landing page of the artifact. E.g.
+
+```
+% curl -I https://biblio.ugent.be/publication/01HGZ2RXXGK39KV1T0NJV1W6CX
+HTTP/1.1 200 OK
+Date: Mon, 21 Oct 2024 07:43:25 GMT
+Content-Type: text/html
+Connection: keep-alive
+Link-Template: "{url}/events" ; rel="eventlog"
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Link, Link-Template
+```
+
 ### What an artifact?
 
 An artifact in the context of Biblio is in general a complex object that is identified by the biblio record identifier. It is the intellectual entity that is described by that identifier.
