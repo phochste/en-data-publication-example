@@ -1,3 +1,5 @@
+We moved to https://codeberg.org/phochste/en-data-publication-example
+
 # Event Notifications Data/Publication Linkages
 
 ## Examples
